@@ -11,7 +11,7 @@ print("The server is ready to receive")
 
 while True:
     connectionSocket, addr = serverSocket.accept()
-    #print(f"Nova conexão estabelecida com {addr}")
+    #print(f"Nova conexão estabelecida com {addr} ")
 
     while True:
         message = connectionSocket.recv(1024)
